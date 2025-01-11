@@ -14,3 +14,11 @@ p {
 a {
     background-color:chocolate;
 }
+/* Додати фон, вага - 0,0,0,2 */
+em > p {
+    background-color: blue;
+}
+/* Додати фон, вага - 0,0,1,2 */
+.main_1 em #main_2 {
+    background-color: crimson;
+}
