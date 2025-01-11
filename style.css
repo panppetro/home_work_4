@@ -1,0 +1,4 @@
+/* Додати фон */
+div > p {
+    background-color: yellow;
+}
