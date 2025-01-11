@@ -1,4 +1,12 @@
-/* Додати фон */
-div > p {
+/* Додати фон, вага - 0,0,0,2 */
+div p {
     background-color: yellow;
+}
+/* Додати фон, вага - 0,0,1,1 */
+.moment p{
+    background-color: red;
+}
+/* Додати фон, вага - 0,1,0,0 */
+#text > p{
+    background-color: green;
 }
