@@ -1,9 +1,10 @@
+
 .table_1 {
     width: 75%;
     height: 50px;
     position: absolute center;
+    margin: auto;
 }
-
 
 td {
     border: 1px solid black;
@@ -19,6 +20,8 @@ td {
     width: 80%;
     height: 50px;
     position: absolute center;
+    margin: auto;
+   
 }
 
 .two {
@@ -35,4 +38,60 @@ td {
     position: absolute center;
     margin: auto;
     padding: 12px 12px;
+    margin: auto;
+}
+
+.picture {
+    width: 25%;
+    height: 100px;
+    padding: 20px 20px;
+    margin: auto;
+    
+}
+
+.picture td {
+    width: 1px;
+    height: 1px;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.picture .threee {
+    background-color: red;
+}
+
+
+.picture .twentyseven {
+   height: 10%;
+}
+
+.picture .five {
+    padding: 50px 10px;
+}
+
+.picture .one {
+    background-color: yellow;
+}
+
+.picture .seven {
+    background-color: yellow;
+    height: 50px;
+}
+.picture .twentythree {
+    background-color: red;
+}
+.picture .twentytwo {
+    background-color: blue;
+}
+.picture .twentyone {
+    background-color: black;
+}
+.picture .fifteen {
+    background-color: black;
+}
+.picture .nineteen {
+    background-color: yellow;
+}
+.picture .five {
+    background-color: red;
 }
