@@ -1,4 +1,4 @@
-table {
+.table_1 {
     width: 75%;
     height: 50px;
     position: absolute center;
@@ -13,4 +13,26 @@ td {
 }
 .line {
     height: 200px;
+}
+
+.table_2 {
+    width: 80%;
+    height: 50px;
+    position: absolute center;
+}
+
+.two {
+    width: 60%;
+}
+
+.three {
+    width: 28%;
+}
+
+.table_3 {
+    width: 80%;
+    height: 200px;
+    position: absolute center;
+    margin: auto;
+    padding: 12px 12px;
 }

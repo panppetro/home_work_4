@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
+    <table class="table_1">
         <caption>Table #1</caption>
         <thead></thead>
         <tbody>
@@ -22,6 +22,43 @@
             <tr>
                 <td>7</td>
                 <td>8</td>
+            </tr>  
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <table class="table_2">
+        <caption>Table #2</caption>
+        <thead></thead>
+        <tbody>
+            <tr class="numbers">
+                <td class="one" colspan="2">1</td>
+                <td class="two">2</td>
+            </tr>
+            <tr class="numbers">
+                <td class="three">3</td>
+                <td class="four" colspan="2" rowspan="2">
+                    <table class="table_3">
+                        <caption>Table #3</caption>
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                 <td>1</td>
+                                 <td rowspan="3">2</td>
+                                 <td rowspan="2">3</td>   
+                            </tr>
+                            <tr>
+                                <td rowspan="2">4</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </td>
+            </tr>
+            <tr class="numbers"> 
+                <td class="five">5</td>
             </tr>
         </tbody>
         <tfoot></tfoot>
