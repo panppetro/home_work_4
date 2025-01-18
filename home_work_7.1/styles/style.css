@@ -1,0 +1,9 @@
+.one {
+    display: block;
+}
+.two {
+    display: inline;
+}
+.three {
+    display: flex;
+}
