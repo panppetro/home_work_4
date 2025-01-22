@@ -1,0 +1,135 @@
+.main_float_1 .float_1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+}
+.main_float_1 .float_2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+}
+
+
+.main_float_2 .float_1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.main_float_2 .float_2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: right;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.main_float_2 .float_3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: right;
+    margin-top: 100px;
+    margin-right: -100px;
+}
+
+.main_float_2 .float_4 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+    margin-top: 100px;
+}
+
+.main_float_3 .float_1 {
+    height: 100px;
+    width: 100px;
+    background-color:chocolate;
+    float: left;
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
+
+.main_float_3 .float_2{
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    float: left;
+    margin-top: 200px;
+    
+}
+
+
+.main_float_3 .float_3 {
+    height: 100px;
+    width: 100px;
+    background-color:burlywood;
+    float: right;
+    margin-top: 200px;
+}
+
+
+.main_float_3 .float_4 {
+    height: 100px;
+    width: 100px;
+    background-color:darkcyan;
+    float: right;
+    margin-top: 200px;
+}
+
+.main_float_4 .float_1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: right;
+    margin-top: 300px;
+    margin-left: -100px;
+}
+
+.main_float_4 .float_2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+    margin-top: 300px;
+}
+
+.main_float_4 .float_3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+    margin-top: 400px;
+}
+
+.main_float_5 .float_1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+    margin-top: 500px;
+    margin-left: -100px;
+}
+
+.main_float_5 .float_2 {
+    height: 100px;
+    width: 100px;
+    background-color: wheat;
+    float: right;
+    margin-top: 600px;
+}
+
+.main_float_5 .float_3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: right;
+    margin-top: 500px;
+}
