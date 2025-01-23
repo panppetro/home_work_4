@@ -1,3 +1,5 @@
+/* Перший етап розтановки блоків */
+
 .main_float_1 {
     clear: both;
 }
@@ -14,6 +16,8 @@
     background-color: blue;
     float: right;
 }
+
+/* Другий етап розтановки блоків */
 
 .main_float_2 {
     clear: both;
@@ -53,6 +57,8 @@
     margin-top: 100px;
 }
 
+/* Третій етап розтановки блоків */
+
 .main_float_3 {
     clear: both;
 }
@@ -89,6 +95,8 @@
     margin-top: 100px;
 }
 
+/* Четвертий етап розтановки блоків */
+
 .main_float_4 {
     clear: both;
 }
@@ -117,6 +125,8 @@
     margin-top: 200px;
     margin-right: -300px;
 }
+
+/* П'ятий етап розтановки блоків */
 
 .main_float_5 {
     clear: both;
