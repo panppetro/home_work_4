@@ -1,4 +1,4 @@
-/* Перший етап розтановки блоків */
+/* Перший етап розташування блоків */
 
 .main_float_1 {
     clear: both;
@@ -17,7 +17,7 @@
     float: right;
 }
 
-/* Другий етап розтановки блоків */
+/* Другий етап розташування блоків */
 
 .main_float_2 {
     clear: both;
@@ -31,11 +31,14 @@
     margin-top: 100px;
 }
 
+.main_float_2 .second_side > div {
+    float: right;
+}
+
 .main_float_2 .block_2 {
     height: 100px;
     width: 100px;
     background-color: black;
-    float: right;
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -44,7 +47,6 @@
     height: 100px;
     width: 100px;
     background-color: yellow;
-    float: right;
     margin-top: 100px;
     margin-right: -100px;
 }
@@ -53,21 +55,23 @@
     height: 100px;
     width: 100px;
     background-color: blue;
-    float: right;
     margin-top: 100px;
 }
 
-/* Третій етап розтановки блоків */
+/* Третій етап розташування блоків */
 
 .main_float_3 {
     clear: both;
+}
+
+.main_float_3 .first_side > div {
+    float:left;
 }
 
 .main_float_3 .block_1 {
     height: 100px;
     width: 100px;
     background-color:chocolate;
-    float: left;
     margin-top: 100px;
 }
 
@@ -75,15 +79,17 @@
     height: 100px;
     width: 100px;
     background-color:blueviolet;
-    float: left;
     margin-top: 100px;
+}
+
+.main_float_3 .second_side > div {
+    float: right;
 }
 
 .main_float_3 .block_3 {
     height: 100px;
     width: 100px;
     background-color:burlywood;
-    float: right;
     margin-top: 100px;
 }
 
@@ -91,21 +97,23 @@
     height: 100px;
     width: 100px;
     background-color:darkcyan;
-    float: right;
     margin-top: 100px;
 }
 
-/* Четвертий етап розтановки блоків */
+/* Четвертий етап розташування блоків */
 
 .main_float_4 {
     clear: both;
+}
+
+.main_float_4 .first_side > div {
+    float: right;
 }
 
 .main_float_4 .block_1 {
     height: 100px;
     width: 100px;
     background-color: yellow;
-    float: right;
     margin-top: 100px;
 }
 
@@ -113,7 +121,6 @@
     height: 200px;
     width: 200px;
     background-color: red;
-    float: right;
     margin-top: 100px;
 }
 
@@ -121,22 +128,24 @@
     height: 100px;
     width: 100px;
     background-color: blue;
-    float: right;
     margin-top: 200px;
     margin-right: -300px;
 }
 
-/* П'ятий етап розтановки блоків */
+/* П'ятий етап розташування блоків */
 
 .main_float_5 {
     clear: both;
+}
+
+.main_float_5 .first_side > div {
+    float: left;
 }
 
 .main_float_5 .block_1 {
     height: 200px;
     width: 200px;
     background-color: blue;
-    float: left;
     margin-top: 100px;
     margin-left: 600px;
 }
@@ -145,7 +154,6 @@
     height: 100px;
     width: 100px;
     background-color: wheat;
-    float: left;
     margin-top: 200px;
 }
 
@@ -153,7 +161,6 @@
     height: 100px;
     width: 100px;
     background-color: red;
-    float: left;
     margin-top: 100px;
     margin-left: -100px;
 }
