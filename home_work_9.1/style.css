@@ -1,5 +1,7 @@
 :root {
     --font-size: 16px;
+    --font-weight-lg: 500;
+    --font-weight-sm: 400;
     --font: Roboto, sans-serif;
     --black-color: #000;
     --white-color: #fff;
@@ -52,14 +54,14 @@ ul {
 }
 
 h1 {
-    font-weight: 500;
+    font-weight: var(--font-weight-lg);
     font-size: 48px;
     line-height: 78px;
 }
 
 p {
     color: var(--nickel-color);
-    font-weight: 400;
+    font-weight: var(--font-weight-sm);
     font-size: var(--font-size);
     line-height: 26px;
     max-width: 540px;
@@ -69,7 +71,7 @@ p {
 .btn-write-me {
     padding: 19px 41px 20px;
     background: var(--metalic-blue);
-    font-weight: 400;
+    font-weight: var(--font-weight-sm);
     font-size: var(--font-size);
     line-height: 26px;
     color: var(--white-color);
@@ -119,7 +121,7 @@ header ul li:hover {
 
 .project-item p:first-child {
     color: var(--white-color);
-    font-weight: 500;
+    font-weight: var(--font-weight-lg);
     font-size: 21px;
     line-height: 24px;
     max-width: auto;
@@ -128,7 +130,7 @@ header ul li:hover {
 
 .project-item p:last-child {
     color: var(--white-color);
-    font-weight: 400;
+    font-weight: var(--font-weight-lg);
     font-size: var(--font-size);
     line-height: 26px;
     max-width: auto;
@@ -137,7 +139,7 @@ header ul li:hover {
 
 h2 {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: var(--font-weight-lg);
     line-height: 37.5px;
     text-align: center;
 }
@@ -167,7 +169,7 @@ footer {
 }
 
 footer p:first-child {
-    font-weight: 500;
+    font-weight: var(--font-weight-lg);
     font-size: 21px;
     line-height: 24.61px;
     color: var(--white-color);
@@ -175,7 +177,7 @@ footer p:first-child {
 }
 
 footer p:last-child {
-    font-weight: 400;
+    font-weight: var(--font-weight-sm);
     font-size: 13px;
     line-height: 21.33px;
     color: var(--white-color);
