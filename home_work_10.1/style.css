@@ -43,6 +43,11 @@ header {
     padding: var(--gap-lx);
 }
 
+.mobile-navigation {
+    display: none;
+}
+
+
 ul {
     list-style: none;
     display: flex;
@@ -296,8 +301,8 @@ footer p:last-child {
     
     header {
         padding: 30px;
+        padding: 0;
     }
-    
 
     .container {
         max-width: 600px;
@@ -308,19 +313,60 @@ footer p:last-child {
         gap: 10px;
     }
 
+    .nav {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+        padding: 0;
+    }
+
+    .checkbtn {
+        font-size: 1.5rem;
+        color: black;
+        cursor: pointer;
+    }
+
+    input {
+        opacity: 0;
+    }
+
+    label {
+        position: relative;
+        z-index: 2;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .nav-mobile {
+        display: none;
+        position: absolute;
+        background-color:cadetblue;
+        padding: 40px;
+        width: 100%;
+        top:0;
+    }  
+
+    #check:checked ~ .nav-mobile {
+        display: block;
+    }
+
     .main-section {
         padding-top: var(--gap-lg);
         padding-bottom: 70px;
     }
     
     h1 {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 35px;
     }
 
     .btn-write-me {
-        padding: 15px 30px;
-        font-size: 14px;
+        padding: 10px 15px;
+        font-size: 10px;
         line-height: 24px;
     }
     
@@ -378,7 +424,7 @@ footer p:last-child {
     
     iframe {
         width: 90%;
-        height: 600px;
+        height: 250px;
         margin-top: 50px;
     }
     
@@ -396,4 +442,6 @@ footer p:last-child {
         font-size: 13px;
         line-height: 18px;
     }
+
 }
+
