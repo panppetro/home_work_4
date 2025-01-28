@@ -47,7 +47,6 @@ header {
     display: none;
 }
 
-
 ul {
     list-style: none;
     display: flex;
@@ -196,7 +195,6 @@ footer p:last-child {
         padding: 30px;
     }
     
-
     .container {
         max-width: 600px;
         padding: 0 var(--gap);
