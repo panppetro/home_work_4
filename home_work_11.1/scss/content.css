@@ -1,0 +1,62 @@
+.btn-write-me:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+header ul li:hover {
+  color: var(--nickel-color);
+  transition: 0.3s linear;
+}
+
+.second-section p {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.third-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  color: var(--white-color);
+  flex-wrap: wrap;
+}
+
+.project-item p:first-child {
+  color: var(--white-color);
+  font-weight: var(--font-weight-lg);
+  font-size: 21px;
+  line-height: 24px;
+  max-width: auto;
+  padding: 0 0 10px 0;
+}
+
+.project-item p:last-child {
+  color: var(--white-color);
+  font-weight: var(--font-weight-lg);
+  font-size: var(--font-size);
+  line-height: 26px;
+  max-width: auto;
+  padding: 0;
+}
+
+.fourth-section p {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+footer p:first-child {
+  font-weight: var(--font-weight-lg);
+  font-size: 21px;
+  line-height: 24.61px;
+  color: var(--white-color);
+  padding: 0 0 0 0;
+}
+
+footer p:last-child {
+  font-weight: var(--font-weight-sm);
+  font-size: 13px;
+  line-height: 21.33px;
+  color: var(--white-color);
+  padding: 0;
+}/*# sourceMappingURL=content.css.map */

@@ -1,0 +1,10 @@
+@import "mixins.scss";
+@import "variables.scss";
+
+@include all {
+    @include container;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
