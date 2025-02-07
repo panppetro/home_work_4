@@ -1,0 +1,10 @@
+.form_group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form_group input {
+    width: fit-content;
+    box-sizing: border-box;
+}

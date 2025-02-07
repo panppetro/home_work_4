@@ -1,0 +1,39 @@
+.pad {
+    width: 70%;
+}
+
+.link_list{
+    list-style:circle;
+    font-size: x-large;
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+.link_lISt {
+    list-style:inside;
+    color: aliceblue;
+    font-size: medium;
+    background-color:crimson ;
+    width: 40%;
+    border-radius: 8px;
+    text-align: left;
+}
+
+b {
+    background-color: magenta;
+    width: 15%;
+    font-family: 'Segoe UI';
+    border-radius: 6px;
+}
+
+.content{
+    background-position: 50%;
+    background-color: chocolate;
+    font-size: large;
+    width: 10%;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
