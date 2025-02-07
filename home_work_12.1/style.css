@@ -1,0 +1,5 @@
+.circle:hover {
+    fill: black;
+    stroke: red;
+    transition: color 0.5s ease-in-out;
+}
