@@ -5,12 +5,15 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
+    svg {
+        display: none;
+    }
 
     padding: 38px;
     padding-top: 0px;
-    gap: 860px;
 
     position: relative;
     top: 20px;
@@ -31,6 +34,8 @@ body {
         list-style: none;
         margin: 0;
         padding: 0;
+
+
 
     li:hover {
             color: #D66926;
@@ -485,12 +490,17 @@ footer {
     
 @media (max-width: 1200px){
 
+    header {
+        width: 100%;
+        height: 100%;
+
+        
+    }
+
     .header-container {
-        width: 273px;
-        height: 50px;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     
         padding: 38px;
@@ -499,18 +509,16 @@ footer {
     
         position: relative;
         top: 20px;
-        z-index: 0;
+        z-index: 1;
     
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 20px;
-        letter-spacing: 8.5%;
+        letter-spacing: 10%;
         text-align: center;
+        
         color: white;
-
-        width: 768px;
-        height: 560px;
     
         ul {
             display: flex;
@@ -564,45 +572,7 @@ footer {
     
             width: 360px;
             height: 40px;
-
-            .btn_1 {
-                width: 200px;
-                height: 50px;
-                border: 2px solid white;  
-                font-size: 16px;
-    
-                // Зміна в кнопках чомусь не хоче працювати
-            }
-    
-            .btn_2 {
-                width: 200px;
-                height: 50px;
-                border: 2px solid white;
-                font-size: 16px;
-    
-                // Зміна в кнопках чомусь не хоче працювати
-            }
         }
-    
-
-        .btn_1 {
-            width: 200px;
-            height: 50px;
-            border: 2px solid white;  
-            font-size: 16px;
-
-            // Зміна в кнопках чомусь не хоче працювати
-        }
-
-        .btn_2 {
-            width: 200px;
-            height: 50px;
-            border: 2px solid white;
-            font-size: 16px;
-
-            // Зміна в кнопках чомусь не хоче працювати
-        }
-
     }
 
     .grid-container {
@@ -781,25 +751,29 @@ footer {
 
 }
 
-
-
 @media (max-width: 599px) {
 
     .header-container {
-        width: 100%;
+        nav {
+            display: none;
+        }
+
+        width: 462px;
         height: 100%;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     
         padding: 38px;
-        padding-top: 0px;
+        padding-left: 0;
+        background-color: rgba(#44596E, 0.4);
         
     
         position: relative;
-        top: 20px;
-        z-index: 1;
+        top:37px;
+        left: 43px;
+
     
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 400;
@@ -808,6 +782,21 @@ footer {
         letter-spacing: 8.5%;
         text-align: center;
         color: white;
+
+        img {
+            padding-left: 20px;
+        }
+        
+        svg {
+            display: block;
+
+            width: 200px;
+            height: 40px;
+
+            color: white;
+            position: relative;
+            left: 70px;
+        }
     
         ul {
             display: flex;
@@ -825,14 +814,13 @@ footer {
 
 }
 
-
-.welcome {
+    .welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-left: 10px;
+    margin-left: 42px;
 
     width: 500px;
     height: 992px;
