@@ -489,6 +489,11 @@ footer {
 }
     
 @media (max-width: 1200px){
+    
+    body::-webkit-scrollbar {
+        display: none; 
+    }
+
 
     header {
         width: 100%;
@@ -748,10 +753,13 @@ footer {
         }
 
     }
-
 }
 
+
 @media (max-width: 599px) {
+    body::-webkit-scrollbar {
+        display: none; 
+    }
 
     .header-container {
         nav {
