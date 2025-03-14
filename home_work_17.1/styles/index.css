@@ -739,7 +739,7 @@ footer::after {
     grid-row: auto;
   }
   .lamp {
-    width: 576px;
+    width: 100% px;
     height: 1182px;
     background-color: #E5E5E5;
     display: flex;
@@ -838,14 +838,13 @@ footer::after {
   }
   .dark-bg {
     background-color: #2D3651;
-    width: 576px;
+    width: 100%;
   }
   .form {
-    width: 580px;
-    padding: 20px 0px 20px 20px;
+    width: 100%;
   }
   .form-container {
-    width: 524px;
+    width: 560px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -893,7 +892,8 @@ footer::after {
     display: grid;
     grid-template-columns: repeat(1, 450px);
     gap: 8px;
-    padding-left: 24px;
+    width: 100%;
+    padding-left: 80px;
   }
   .posts-grid div:nth-child(1) {
     grid-column: auto;
